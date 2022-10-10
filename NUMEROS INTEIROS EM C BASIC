@@ -1,0 +1,46 @@
+// CALCULAR NUMEROS INTEIROS
+
+
+#include	<stdio.h>
+#include	<stdlib.h>
+#include	<locale.h>
+int main(void)
+{
+	setlocale(LC_ALL,"Portuguese");
+	int	n1,n2,n3, media;
+	
+	
+	
+				printf("\n\n CALCULAR NUMEROS INTEIROS \n\n ");
+				
+				
+				printf("\n Digite  a nota numero 1 \n");
+			scanf("%d",&n1);
+			
+				printf("\n Digite  a nota numero 2 \n");
+			scanf("%d",&n2);
+			
+			
+			
+				printf("\n Digite  a nota numero 3 \n");
+			scanf("%d",&n3);
+			
+			
+			media=n1*n2/n3;
+			
+			printf("\n O RESULTADO DA SOMA É  %d \n",media);
+			
+			system ("pause");
+			
+	return 0;
+			
+			
+	
+}
+
+
+//NOME: JOAO TOJO
+//DATA:10.10.22
+// HORA: 17H 00
+// CITY: SP/BRASIL
+//	
